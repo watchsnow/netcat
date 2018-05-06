@@ -9,17 +9,18 @@ nc。
 参数介绍： 
 nc.exe -h即可看到各参数的使用方法。 
 
-基本格式：nc [-options] hostname port[s] [ports] ... nc -l -p port [options] [hostname] [port]
--d 后台模式 
--e prog 程序重定向，一旦连接，就执行 [危险!!] 
--g gateway source-routing hop point[s], up to 8 
--G num source-routing pointer: 4, 8, 12, ... 
--h 帮助信息 -i secs 延时的间隔 -l 监听模式，用于入站连接 
--L 连接关闭后,仍然继续监听 -n 指定数字的IP地址，不能用hostname 
--o file 记录16进制的传输 -p port 本地端口号 -r 随机本地及远程端口 
--s addr 本地源地址 
--t 使用TELNET交互方式 
--u UDP模式 -v 详细输出--用两个
--v可得到更详细的内容 
--w secs timeout的时间 
--z 将输入输出关掉--用于扫描时  端口的表示方法可写为M-N的范围格式。
+基本格式：nc [-options] hostname port[s] [ports] ... nc ＜/br＞
+-l -p port [options] [hostname] [port]＜/br＞
+-d 后台模式＜/br＞
+-e prog 程序重定向，一旦连接，就执行 [危险!!] ＜/br＞
+-g gateway source-routing hop point[s], up to 8 ＜/br＞
+-G num source-routing pointer: 4, 8, 12, ... ＜/br＞
+-h 帮助信息 -i secs 延时的间隔 -l 监听模式，用于入站连接＜/br＞ 
+-L 连接关闭后,仍然继续监听 -n 指定数字的IP地址，不能用hostname ＜/br＞
+-o file 记录16进制的传输 -p port 本地端口号 -r 随机本地及远程端口 ＜/br＞
+-s addr 本地源地址 ＜/br＞
+-t 使用TELNET交互方式 ＜/br＞
+-u UDP模式 -v 详细输出--用两个＜/br＞
+-v可得到更详细的内容 ＜/br＞
+-w secs timeout的时间 ＜/br＞
+-z 将输入输出关掉--用于扫描时  端口的表示方法可写为M-N的范围格式。＜/br＞
