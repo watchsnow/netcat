@@ -9,7 +9,8 @@ nc。
 参数介绍： 
 nc.exe -h即可看到各参数的使用方法。 
 
-基本格式：nc [-options] hostname port[s] [ports] ... nc ＜/br＞
+基本格式：nc [-options] hostname port[s] [ports] ... nc
+
 -l -p port [options] [hostname] [port]＜/br＞
 -d 后台模式＜/br＞
 -e prog 程序重定向，一旦连接，就执行 [危险!!] ＜/br＞
